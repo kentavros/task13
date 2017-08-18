@@ -1,5 +1,5 @@
 <?php
-require 'CsvFileIterator.php';
+require __DIR__.'../Lib/CsvFileIterator.php';
 
 class DataTest extends PHPUnit_Framework_TestCase
 {
@@ -17,4 +17,3 @@ class DataTest extends PHPUnit_Framework_TestCase
     }
 }
 ?>
-
